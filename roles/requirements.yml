@@ -1,0 +1,6 @@
+---
+roles:
+  - name: myroles
+    src: https://github.com/JakobHolstDK/myroles.git
+    scm: git
+    version: main  # or specify the branch/tag you want
