@@ -1,0 +1,8 @@
+---
+- name: Copy dsv.json to /etc/
+  ansible.builtin.copy:
+    src: dsv.json
+    dest: /etc/dsv.json
+    owner: root
+    group: root
+    mode: '0644'
